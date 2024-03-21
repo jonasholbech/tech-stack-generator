@@ -12,6 +12,7 @@
 </script>
 <div class="wrapper">
 <ul class="run" style="--target: {target}">
+    <!-- I know, ikke click på li -->
     <li on:click={toggle}>???</li>
     {#each items as item}
         <li on:click={toggle}>{item}</li>
