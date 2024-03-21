@@ -1,6 +1,5 @@
 <script>
     export let items;
-    export let run=false;
     let target=0;
     function toggle(){
         const nextTarget = Math.floor(Math.random()*items.length+1);
