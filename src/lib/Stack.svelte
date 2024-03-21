@@ -41,6 +41,6 @@
     
     .run {
         transition: all 1s;
-        transform:translateY(calc(var(--target) * -2rem + var(--target) * -1px));
+        transform:translateY(calc(var(--target) * var(--base-size) * -2 + var(--target) * -1px));
     }
 </style>
